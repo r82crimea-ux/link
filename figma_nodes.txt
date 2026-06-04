@@ -1,0 +1,50 @@
+﻿  [FRAME] id=4004:196 name='Slide 16:9 - 1' w=1080xh=2536
+    [FRAME] id=4004:199 name='Ресурс 6 (3) 3' w=158xh=90
+      [GROUP] id=4004:200 name='Слой 2' w=158xh=90
+        [GROUP] id=4004:201 name='Слой 2' w=158xh=90
+          [VECTOR] id=4004:202 name='Vector' w=14xh=18
+          [VECTOR] id=4004:203 name='Vector' w=14xh=18
+          [VECTOR] id=4004:204 name='Vector' w=13xh=18
+          [VECTOR] id=4004:205 name='Vector' w=13xh=18
+          [VECTOR] id=4004:206 name='Vector' w=16xh=18
+          [VECTOR] id=4004:207 name='Vector' w=16xh=18
+          [VECTOR] id=4004:208 name='Vector' w=2xh=18
+          [VECTOR] id=4004:209 name='Vector' w=3xh=18
+          [VECTOR] id=4004:210 name='Vector' w=18xh=18
+          [VECTOR] id=4004:211 name='Vector' w=18xh=18
+          [VECTOR] id=4004:212 name='Vector' w=14xh=18
+          [VECTOR] id=4004:213 name='Vector' w=15xh=18
+          [VECTOR] id=4004:214 name='Vector' w=36xh=19
+          [VECTOR] id=4004:215 name='Vector' w=36xh=38
+          [VECTOR] id=4004:216 name='Vector' w=35xh=26
+          [VECTOR] id=4004:217 name='Vector' w=4xh=5
+          [VECTOR] id=4004:218 name='Vector' w=5xh=5
+          [VECTOR] id=4004:219 name='Vector' w=4xh=5
+          [VECTOR] id=4004:220 name='Vector' w=4xh=5
+          [VECTOR] id=4004:221 name='Vector' w=4xh=5
+          [VECTOR] id=4004:222 name='Vector' w=4xh=5
+          [VECTOR] id=4004:223 name='Vector' w=4xh=5
+          [VECTOR] id=4004:224 name='Vector' w=4xh=5
+          [VECTOR] id=4004:225 name='Vector' w=4xh=5
+          [VECTOR] id=4004:226 name='Vector' w=4xh=5
+          [VECTOR] id=4004:227 name='Vector' w=4xh=5
+          [VECTOR] id=4004:228 name='Vector' w=5xh=6
+          [VECTOR] id=4004:229 name='Vector' w=4xh=5
+          [VECTOR] id=4004:230 name='Vector' w=4xh=6
+          [VECTOR] id=4004:231 name='Vector' w=4xh=5
+          [VECTOR] id=4004:232 name='Vector' w=4xh=6
+          [VECTOR] id=4004:233 name='Vector' w=6xh=1
+    [FRAME] id=4004:234 name='Frame 644' w=200xh=98
+    [FRAME] id=4004:236 name='Frame 645' w=150xh=98
+    [FRAME] id=4004:250 name='Frame 646' w=534xh=98
+    [FRAME] id=4004:252 name='Frame 648' w=282xh=98
+    [FRAME] id=4004:254 name='Frame 647' w=110xh=98
+      [VECTOR] id=4004:255 name='Vector 13' w=16xh=32
+    [GROUP] id=4004:256 name='Group 3110' w=510xh=19
+    [GROUP] id=4004:260 name='Group 3111' w=510xh=19
+      [VECTOR] id=4004:267 name='Exclude' w=26xh=22
+    [GROUP] id=4004:268 name='Group 3112' w=43xh=42
+        [VECTOR] id=4004:271 name='Vector' w=26xh=33
+    [VECTOR] id=4004:273 name='Vector' w=42xh=42
+    [VECTOR] id=4004:274 name='Arrow 1' w=14xh=14
+    [VECTOR] id=4004:275 name='Arrow 2' w=14xh=14

@@ -1,0 +1,70 @@
+﻿  [FRAME] name='Slide 16:9 - 1' w=1080xh=2536 fill=rgba(0,0,0,1.0)
+    [RECTANGLE] name='Gemini_Generated_Image_p1c9tup1c9tup1c9 1' w=1080xh=1651 fill=rgba(0,0,0,1.0)
+    [RECTANGLE] name='Rectangle 421' radius=29.0 w=1054xh=132 fill=rgba(0,0,0,1.0) effect=GLASS
+    [FRAME] name='Ресурс 6 (3) 3' w=158xh=90 fill=rgba(255,255,255,1.0)
+      [GROUP] name='Слой 2' w=158xh=90
+        [GROUP] name='Слой 2' w=158xh=90
+    [FRAME] name='Frame 644' radius=18.0 w=200xh=98 fill=rgba(121,121,121,1.0)
+      [TEXT] name='ПОЗВОНИТЬ' chars='ПОЗВОНИТЬ'
+        font=Manrope weight=500 size=22.0 lineH=30.0520019531250 letterSp=1.1000000000000001 case=
+        color=rgba(255,255,255,1.0)
+    [FRAME] name='Frame 645' radius=18.0 w=150xh=98 fill=rgba(121,121,121,1.0)
+      [TEXT] name='АДРЕСА' chars='АДРЕСА'
+        font=Manrope weight=500 size=22.0 lineH=30.0520019531250 letterSp=1.1000000000000001 case=
+        color=rgba(255,255,255,1.0)
+    [TEXT] name='магазин мужских образов' chars='магазин
+мужских
+образов'
+      font=HelveticaNeueCyr weight=400 size=127.0 lineH=104.13999938964844 letterSp=-6.3500000000000005 case=UPPER
+      color=rgba(255,255,255,1.0)
+    [TEXT] name='хочешь к нам в команду?' chars='хочешь к нам 
+в команду?'
+      font=HelveticaNeueCyr weight=400 size=53.0 lineH=49.290000915527344 letterSp=-2.6500000000000004 case=UPPER
+      color=rgba(255,255,255,1.0)
+    [RECTANGLE] name='Rectangle 422' radius=29.0 w=434xh=353 fill=rgba(217,217,217,1.0)
+    [RECTANGLE] name='Rectangle 424' radius=29.0 w=213xh=361 fill=rgba(37,37,37,1.0)
+    [RECTANGLE] name='Rectangle 425' radius=29.0 w=213xh=361 fill=rgba(37,37,37,1.0)
+    [RECTANGLE] name='Rectangle 423' radius=29.0 w=583xh=726 fill=rgba(217,217,217,1.0)
+    [RECTANGLE] name='Rectangle 426' radius=29.0 w=583xh=361 effect=BACKGROUND_BLUR
+    [RECTANGLE] name='Rectangle 427' radius=29.0 w=434xh=229 effect=BACKGROUND_BLUR
+    [TEXT] name='каталог товаров' chars='каталог
+товаров'
+      font=HelveticaNeueCyr weight=400 size=53.0 lineH=49.290000915527344 letterSp=-2.6500000000000004 case=UPPER
+      color=rgba(255,255,255,1.0)
+    [TEXT] name='яндекс карты' chars='яндекс
+карты'
+      font=HelveticaNeueCyr weight=400 size=53.0 lineH=49.290000915527344 letterSp=-2.6500000000000004 case=UPPER
+      color=rgba(255,255,255,1.0)
+    [TEXT] name='вк' chars='вк'
+      font=HelveticaNeueCyr weight=400 size=53.0 lineH=49.290000915527344 letterSp=-2.6500000000000004 case=UPPER
+      color=rgba(255,255,255,1.0)
+    [TEXT] name='тг' chars='тг'
+      font=HelveticaNeueCyr weight=400 size=53.0 lineH=49.290000915527344 letterSp=3.1799999999999997 case=UPPER
+      color=rgba(255,255,255,1.0)
+    [FRAME] name='Frame 646' radius=18.0 w=534xh=98 fill=rgba(0,0,0,1.0)
+      [TEXT] name='Открыть' chars='Открыть'
+        font=Manrope weight=500 size=27.0 lineH=36.881999969482422 letterSp=0.0 case=
+        color=rgba(255,255,255,1.0)
+    [FRAME] name='Frame 648' radius=18.0 w=282xh=98 fill=rgba(255,255,255,1.0)
+      [TEXT] name='Заполнить' chars='Заполнить'
+        font=Manrope weight=500 size=27.0 lineH=36.881999969482422 letterSp=0.0 case=
+        color=rgba(255,255,255,1.0)
+    [FRAME] name='Frame 647' radius=18.0 w=110xh=98 fill=rgba(0,0,0,1.0)
+    [GROUP] name='Group 3110' w=510xh=19
+      [TEXT] name='одежда обувь аксессуары' chars='одежда         обувь         аксессуары'
+        font=HelveticaNeueCyr weight=300 size=27.0 lineH=22.139999389648438 letterSp=-0.27000000000000002 case=UPPER
+        color=rgba(255,255,255,1.0)
+      [RECTANGLE] name='Rectangle 428' w=6xh=6 fill=rgba(255,255,255,1.0)
+      [RECTANGLE] name='Rectangle 429' w=6xh=6 fill=rgba(255,255,255,1.0)
+    [GROUP] name='Group 3111' w=510xh=19
+      [TEXT] name='одежда обувь аксессуары' chars='одежда         обувь         аксессуары'
+        font=HelveticaNeueCyr weight=300 size=27.0 lineH=22.139999389648438 letterSp=-0.27000000000000002 case=UPPER
+        color=rgba(255,255,255,1.0)
+      [RECTANGLE] name='Rectangle 428' w=6xh=6 fill=rgba(255,255,255,1.0)
+      [RECTANGLE] name='Rectangle 429' w=6xh=6 fill=rgba(255,255,255,1.0)
+    [TEXT] name='Заполни анкету и мы с тобой свяжемся' chars='Заполни анкету и мы с тобой свяжемся'
+      font=HelveticaNeueCyr weight=300 size=27.0 lineH=22.139999389648438 letterSp=1.0800000000000001 case=UPPER
+      color=rgba(255,255,255,1.0)
+      [RECTANGLE] name='Rectangle 432' radius=10.601185798645020 w=43xh=42 fill=rgba(255,255,255,1.0)
+    [GROUP] name='Group 3112' w=43xh=42
+        [RECTANGLE] name='Rectangle 430' radius=10.601185798645020 w=43xh=42 fill=rgba(255,255,255,1.0)

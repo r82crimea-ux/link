@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#000000">
+  <title>R82 REGION</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-bar">
+      <img src="лого.png" alt="R82 REGION" class="logo">
+      <div class="header-btns">
+        <a href="#" class="header-btn" id="btn-phone">Позвонить</a>
+        <button class="header-btn" id="btn-addresses">Адреса</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="фон.png" alt="" class="hero-img">
+    <div class="hero-gradient"></div>
+    <div class="hero-text">
+      <h1>магазин<br>мужских<br>образов</h1>
+      <div class="hero-sub">
+        <span>Одежда</span>
+        <span class="dot"></span>
+        <span>Обувь</span>
+        <span class="dot"></span>
+        <span>Аксессуары</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARDS -->
+  <section class="cards">
+    <div class="grid">
+
+      <!-- Яндекс Карты -->
+      <a href="#" class="c-ya" id="card-yandex">
+        <img class="bg-img" src="яндекс карты.png" alt="">
+        <div class="content-overlay">
+          <div class="badge"><img src="icons/ya-badge.svg" alt=""></div>
+          <div class="foot">
+            <span class="name">Яндекс<br>Карты</span>
+            <div class="arrow-btn"><img src="icons/ya-arrow.svg" alt="" style="width:100%;height:100%;"></div>
+          </div>
+        </div>
+      </a>
+
+      <!-- Каталог -->
+      <a href="#" class="c-cat" id="card-catalog">
+        <img class="bg-img" src="каталог.png" alt="">
+        <div class="content-overlay">
+          <div class="ttl">Каталог<br>товаров</div>
+          <div class="obtn">Открыть</div>
+        </div>
+      </a>
+
+      <!-- Соцсети -->
+      <div class="c-soc">
+        <a href="#" class="sc" id="card-vk">
+          <div class="top">
+            <img class="ico" src="icons/vk.svg" alt="ВК">
+            <img class="ext" src="icons/arrow1.svg" alt="">
+          </div>
+          <span class="nm">ВК</span>
+        </a>
+        <a href="#" class="sc" id="card-tg">
+          <div class="top">
+            <img class="ico" src="icons/tg.svg" alt="ТГ">
+            <img class="ext" src="icons/arrow2.svg" alt="">
+          </div>
+          <span class="nm" id="text-tg">ТГ</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- JOIN -->
+  <section class="join">
+    <h2>Хочешь к нам<br>в команду?</h2>
+    <p>Заполни анкету и мы с тобой свяжемся</p>
+    <a href="#" class="btn" id="btn-join">Заполнить</a>
+  </section>
+
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal-addresses">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h3>Адреса магазинов</h3>
+      <button class="modal-close" id="modal-close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p class="modal-city">г. Симферополь</p>
+      
+      <div class="store-item">
+        <h4>Регион 82 в ТЦ «Лоцман» <span>(1 этаж)</span></h4>
+        <p class="time">с 10:00 до 20:00</p>
+      </div>
+      
+      <div class="store-item">
+        <h4>Регион 82 в ТЦ «Октябрьский» <span>(1 этаж)</span></h4>
+        <p class="time">с 10:00 до 19:00</p>
+      </div>
+
+      <div class="store-break">
+        <p>В пятницу перерыв с 12:20 до 15:00</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="links.js"></script>
+<script>
+  // Link mapping
+  const map = {
+    'btn-phone': LINKS.phone,
+    'card-yandex': LINKS.yandexMaps,
+    'card-catalog': LINKS.catalog,
+    'card-vk': LINKS.vk,
+    'card-tg': LINKS.telegram,
+    'btn-join': LINKS.joinTeam,
+  };
+  for (const [id, url] of Object.entries(map)) {
+    const el = document.getElementById(id);
+    if (el && url) {
+      el.href = url;
+      if (url.startsWith('http')) { el.target = '_blank'; el.rel = 'noopener noreferrer'; }
+    }
+  }
+
+  // Modal logic
+  const btnAddresses = document.getElementById('btn-addresses');
+  const modalAddresses = document.getElementById('modal-addresses');
+  const modalClose = document.getElementById('modal-close');
+
+  btnAddresses.addEventListener('click', (e) => {
+    e.preventDefault();
+    modalAddresses.classList.add('active');
+  });
+
+  modalClose.addEventListener('click', () => {
+    modalAddresses.classList.remove('active');
+  });
+
+  modalAddresses.addEventListener('click', (e) => {
+    if (e.target === modalAddresses) {
+      modalAddresses.classList.remove('active');
+    }
+  });
+</script>
+
+</body>
+</html>
