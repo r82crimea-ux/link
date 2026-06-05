@@ -9,6 +9,10 @@
 </head>
 <body>
 
+<div class="preloader" id="preloader">
+  <img src="лого.png" alt="R82">
+</div>
+
 <div class="page">
 
   <!-- HEADER -->
@@ -16,7 +20,7 @@
     <div class="header-bar">
       <img src="лого.png" alt="R82 REGION" class="logo">
       <div class="header-btns">
-        <a href="#" class="header-btn" id="btn-phone">Позвонить</a>
+        <button class="header-btn btn-highlight" id="btn-bonus">Получить 1000₽</button>
         <button class="header-btn" id="btn-addresses">Адреса</button>
       </div>
     </div>
@@ -122,11 +126,38 @@
   </div>
 </div>
 
+<!-- MODAL BONUS -->
+<div class="modal-overlay" id="modal-bonus">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h3>Бонусная программа</h3>
+      <button class="modal-close" id="modal-close-bonus">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+    <div class="modal-body">
+      <p class="modal-text">Мы активно работаем над запуском бонусной программы для наших клиентов и поэтому дарим 1000 рублей на будущий бонусный счет, который вы сможете потратить на покупки в магазине.</p>
+      <p class="modal-text">Все что нужно от Вас — оставить свои контакты. Как только бонусная программа заработает мы вас оповестим.</p>
+      <a href="https://forms.yandex.ru/u/6967e6899029023f8d49f887" target="_blank" class="modal-btn">Оставить контакты</a>
+    </div>
+  </div>
+</div>
+
 <script src="links.js"></script>
 <script>
+  // Preloader logic
+  window.addEventListener('load', () => {
+    const preloader = document.getElementById('preloader');
+    setTimeout(() => {
+      preloader.classList.add('hidden');
+      setTimeout(() => {
+        preloader.style.display = 'none';
+      }, 500);
+    }, 400);
+  });
+
   // Link mapping
   const map = {
-    'btn-phone': LINKS.phone,
     'card-yandex': LINKS.yandexMaps,
     'card-catalog': LINKS.catalog,
     'card-vk': LINKS.vk,
@@ -144,20 +175,35 @@
   // Modal logic
   const btnAddresses = document.getElementById('btn-addresses');
   const modalAddresses = document.getElementById('modal-addresses');
-  const modalClose = document.getElementById('modal-close');
+  const modalCloseAddr = document.getElementById('modal-close');
+
+  const btnBonus = document.getElementById('btn-bonus');
+  const modalBonus = document.getElementById('modal-bonus');
+  const modalCloseBonus = document.getElementById('modal-close-bonus');
 
   btnAddresses.addEventListener('click', (e) => {
     e.preventDefault();
     modalAddresses.classList.add('active');
   });
-
-  modalClose.addEventListener('click', () => {
+  modalCloseAddr.addEventListener('click', () => {
     modalAddresses.classList.remove('active');
   });
-
   modalAddresses.addEventListener('click', (e) => {
     if (e.target === modalAddresses) {
       modalAddresses.classList.remove('active');
+    }
+  });
+
+  btnBonus.addEventListener('click', (e) => {
+    e.preventDefault();
+    modalBonus.classList.add('active');
+  });
+  modalCloseBonus.addEventListener('click', () => {
+    modalBonus.classList.remove('active');
+  });
+  modalBonus.addEventListener('click', (e) => {
+    if (e.target === modalBonus) {
+      modalBonus.classList.remove('active');
     }
   });
 </script>

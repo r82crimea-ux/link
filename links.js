@@ -6,19 +6,15 @@
 
 const LINKS = {
 
-  // --- Кнопки в шапке ---
-  phone: "tel:+79001234567",           // Номер телефона (формат: tel:+7XXXXXXXXXX)
-  addresses: "https://example.com",     // Ссылка на страницу адресов
-
   // --- Карточки ссылок ---
-  yandexMaps: "https://yandex.ru/maps", // Яндекс Карты
-  catalog: "https://example.com/catalog", // Каталог товаров
+  yandexMaps: "https://yandex.ru/maps/-/CPXtvOkx", // Яндекс Карты
+  catalog: "https://www.instagram.com/region.82", // Каталог товаров (Inst)
 
   // --- Соц. сети ---
-  vk: "https://vk.com/yourpage",        // ВКонтакте
-  telegram: "https://t.me/yourchannel", // Телеграм
+  vk: "https://vk.com/8region2",        // ВКонтакте
+  telegram: "https://t.me/region82_lux", // Телеграм
 
   // --- Нижний блок ---
-  joinTeam: "https://example.com/join", // Анкета "Хочешь к нам в команду?"
+  joinTeam: "https://forms.yandex.ru/u/6a23363d84227c123ebe4f34", // Анкета "Хочешь к нам в команду?"
 
 };
