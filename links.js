@@ -8,7 +8,7 @@ const LINKS = {
 
   // --- Карточки ссылок ---
   yandexMaps: "https://yandex.ru/maps/-/CPXtvOkx", // Яндекс Карты
-  catalog: "https://www.instagram.com/region.82", // Каталог товаров (Inst)
+  catalog: "https://www.instagram.com/region82_lux", // Каталог товаров (Inst)
 
   // --- Соц. сети ---
   vk: "https://vk.com/8region2",        // ВКонтакте
